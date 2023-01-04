@@ -2,7 +2,7 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-{/*================================Definir l'objet de  featurecard==============================================================================================================*/ }
+{/*================================Definir l'objet de  featurecard===================================================================================*/ }
 
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
   </div>
 );
-{/*================================FIN Definir l'objet de  featurecard==============================================================================================================*/ }
+{/*================================FIN Definir l'objet de  featurecard================================================================================*/ }
 {/*==============il sera utilise que ici donc pas la peine de le declarer dans constatents file==================*/ }
 
 
@@ -46,7 +46,7 @@ const Business = () => (
     </div>
     {/*==============================================================================================================================================*/}
 
-    {/*================================Boucle pour parcourir le tableau des featurecard==============================================================================================================*/}
+    {/*================================Boucle pour parcourir le tableau des featurecard==============================================================================*/}
 
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (

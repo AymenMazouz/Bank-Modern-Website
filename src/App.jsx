@@ -11,6 +11,7 @@ const App = () =>  (
        <Navbar/>
       </div>
   </div>   
+  //========================================================
   <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
           <Hero/>
@@ -23,7 +24,7 @@ const App = () =>  (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
+        <Clients/>
         <CTA />
         <Footer /> 
       </div>
@@ -33,4 +34,4 @@ const App = () =>  (
  
 
 export default App
-// l'app par defaut
+// l'app par default iclue le tout 
